@@ -4,9 +4,9 @@ if (!isset ($_SESSION)) {
 	session_start();
 }
  $hostname="localhost"; 
- $basename="mathplatform"; 
- $basepass="nanohacon21"; 
- $database="mathplatform"; 
+ $basename="*****"; 
+ $basepass="*****"; 
+ $database="*****"; 
 
  $conn=mysql_connect($hostname,$basename,$basepass)or die("error!"); //連接mysql              
  mysql_select_db($database,$conn); //選擇mysql資料庫
